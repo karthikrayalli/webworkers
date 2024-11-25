@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #2e2157;
+  color: #d0c3ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(315deg, #2e2157 0%, #e71d36 74%);
+}
+
+button {
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+  outline: none;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff8e53 30%, #fe6b8b 90%);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
